@@ -1,1 +1,1 @@
-
+EJERCICIO3: "calculator2fuentes" ahora la clase y funciones permanecen en un archivo y la ejecución en otro archivo llamado "main", descargar ambos archivos "calculator2fuentes" y "main", después ejecutar "main".
