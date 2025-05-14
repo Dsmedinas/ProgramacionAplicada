@@ -1,6 +1,6 @@
 David Santiago Medina Sarmiento 20201005007
 
-GUÍA QUE HACER CON LOS ARCHIVOS?
+GUÍA QUÉ HACER CON LOS ARCHIVOS?
 
 EJERCICIO1: Códigos Google Colaboratory. Link con la carpeta de los colab: https://drive.google.com/drive/folders/1Z-iBe5igRWCZ4ICz9jIZYjHmfxGJEQxV?usp=sharing
 
