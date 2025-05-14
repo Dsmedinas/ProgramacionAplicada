@@ -1,1 +1,1 @@
-
+EJERCICIO4: Consta de 2 fuentes "cajero" y "principal", donde cajero almacena la clase y funciones del cajero como depositar, retirar y consultar saldo, en "principal" se ejecuta solamente, descargar "cajero" y "principal" y ejercutar "principal".
