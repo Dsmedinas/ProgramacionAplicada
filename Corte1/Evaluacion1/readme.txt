@@ -8,4 +8,4 @@ EJERCICIO2: "calculator1fuente" se trata de pasar un ejercicio hecho en java con
 
 EJERCICIO3: "calculator2fuentes" ahora la clase y funciones permanecen en un archivo y la ejecución en otro archivo llamado "main", descargar ambos archivos "calculator2fuentes" y "main", después ejecutar "main".
 
-EJERCICIO4: Consta de 2 fuentes "cajero" y "principal", donde cajero almacena la clase y funciones del cajero como depositar, retirar y consultar saldo, en "principal" se ejecuta solamente, descargar "cajero" y "principal" y ejercutar "principal".
+EJERCICIO4: Consta de 2 fuentes "cajero" y "principal", donde cajero almacena la clase y funciones del cajero como depositar, retirar, consultar saldo y una clave para ingresar al cajero, en "principal" se ejecutan las funciones. Descargar "cajero" y "principal" y ejercutar "principal".
