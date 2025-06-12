@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- Nota: El título podría ser más descriptivo -->
+</head>
+<body>
+    <!-- Primer párrafo explicativo -->
+    <p>
+        The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+        <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an extended quotation.
+        <!-- 
+          Uso de:
+          - <strong> para importancia
+          - <code> para elementos HTML (con entidades &lt; y &gt;)
+          - <em> para énfasis
+        -->
+    </p>
+
+    <!-- Texto introductorio para el ejemplo -->
+    <p>Here is a blockquote:</p>
+
+    <!-- Ejemplo de blockquote con atributo cite -->
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>
+            The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or
+            <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an extended quotation.
+        </p>
+        <!-- 
+          <blockquote>:
+          - Para citas largas (normalmente con sangría)
+          - Atributo cite indica la fuente (no visible, pero útil para SEO y accesibilidad)
+          - Contiene un párrafo dentro
+        -->
+    </blockquote>
+
+    <!-- Ejemplo de cita corta con q -->
+    <p>
+        El elemento de cita — <code>&lt;q&gt;</code> — se
+        <q cite="https://developer.mozilla.org/es/docs/Web/HTML/Element/q">utiliza para citas breves que no requieren saltos de párrafo.</q>
+        <!-- 
+          <q>:
+          - Para citas cortas en línea (normalmente con comillas automáticas)
+          - Atributo cite para la fuente
+          - Mejor que usar comillas manuales (semánticamente correcto)
+        -->
+    </p>
+</body>
+</html>

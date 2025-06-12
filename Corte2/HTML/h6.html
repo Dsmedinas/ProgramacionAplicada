@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>My page title</title> <!-- Título de la página -->
+    
+    <!-- Recursos externos -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" /> <!-- Hoja de estilos local -->
+</head>
+
+<body>
+    <!-- Cabecera del sitio -->
+    <header>
+        <h1>Header</h1> <!-- Título principal del sitio -->
+    </header>
+
+    <!-- Barra de navegación principal -->
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li> <!-- Elementos del menú -->
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+  
+        <!-- Formulario de búsqueda -->
+        <form>
+          <input type="search" name="q" placeholder="Search query" /> <!-- Campo de búsqueda -->
+          <input type="submit" value="Go!" /> <!-- Botón de enviar -->
+        </form>
+    </nav>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <!-- Artículo principal -->
+        <article>
+          <h2>Article heading</h2> <!-- Título del artículo -->
+  
+          <p> <!-- Párrafo introductorio con texto placeholder -->
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+          </p>
+  
+          <!-- Primera sección del artículo -->
+          <section>
+            <h3>Subsection</h3> <!-- Subtítulo -->
+            <p>Contenido de la subsección...</p>
+            <p>Más contenido...</p>
+          </section>
+  
+          <!-- Segunda sección del artículo -->
+          <section>
+            <h3>Another subsection</h3>
+            <p>Contenido de la segunda subsección...</p>
+            <p>Más contenido...</p>
+
+            <!-- Nota del editor -->
+            <p>
+                The King walked drunkenly back to his room at 01:00...
+                <span class="editor-note"> <!-- Nota especial con clase para estilos -->
+                  [Editor's note: At this point...]
+                </span>
+            </p>
+
+            <!-- Separadores visuales -->
+            <br>
+            <hr>
+
+            <!-- Ejemplo de carrito de compras -->
+            <div class="shopping-cart"> <!-- Contenedor semántico con clase -->
+                <h2>Shopping cart</h2>
+                <ul>
+                  <li>
+                    <p>
+                      <a href=""><strong>Silver earrings</strong></a>: $99.95.
+                    </p>
+                    <img src="../products/3333-0985/thumb.png" alt="Silver earrings" />
+                  </li>
+                  <li>…</li> <!-- Elemento adicional del carrito -->
+                </ul>
+                <p>Total cost: $237.89</p> <!-- Total -->
+            </div>
+            
+            <!-- Más separadores -->
+            <br>
+            <hr>
+            <hr />
+          </section>
+        </article>
+  
+        <!-- Barra lateral con contenido relacionado -->
+        <aside>
+          <h2>Related</h2> <!-- Título de la barra lateral -->
+          <ul>
+            <li><a href="#">Enlace relacionado 1</a></li>
+            <li><a href="#">Enlace relacionado 2</a></li>
+            <li><a href="#">Enlace relacionado 3</a></li>
+            <li><a href="#">Enlace relacionado 4</a></li>
+          </ul>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>©Copyright 2050 by nobody. All rights reversed.</p> <!-- Texto de copyright -->
+    </footer>
+</body>
+</html>

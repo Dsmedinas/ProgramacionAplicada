@@ -1,0 +1,66 @@
+<!DOCTYPE html>  <!-- Declaración del tipo de documento HTML5 -->
+<html lang="en"> <!-- Elemento raíz del documento, con atributo de idioma (inglés) -->
+<head>
+    <!-- Encabezado del documento - contiene metadatos y enlaces a recursos -->
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Configuración para diseño responsivo en dispositivos móviles -->
+    <title>Document</title> <!-- Título de la página (aparece en la pestaña del navegador) -->
+</head>
+<body>
+    <!-- Cuerpo del documento - contiene todo el contenido visible de la página -->
+    
+    <!-- Párrafo con formato de texto -->
+    <p><em>Este es mi <strong>primer párrafo</strong></em></p> 
+    <!-- <em> = énfasis (cursiva), <strong> = importancia (negrita) -->
+    
+    <br> <!-- Salto de línea -->
+    
+    <!-- Imagen con atributos de tamaño y texto alternativo -->
+    <img src="https://raw.githubusercontent.com/mdn/beginner-html-site/gh-pages/images/firefox-icon.png" 
+         alt="Icono de Firefox" 
+         width="150", height="150" /> 
+    <!-- src = URL de la imagen, alt = texto descriptivo para accesibilidad -->
+    
+    <br> <!-- Salto de línea -->
+    
+    <!-- Formulario para recopilar datos del usuario -->
+    <form action="/my-handling-from-page" method="post">
+        <!-- action = URL que procesará el formulario, method = método HTTP (POST) -->
+        
+        <ul> <!-- Lista no ordenada para organizar los campos del formulario -->
+            <li> <!-- Primer elemento de la lista: campo de nombre -->
+                <label for="name">Nombre:</label> <!-- Etiqueta asociada al campo -->
+                <input type="text" id="name" name="user_name" /> 
+                <!-- Campo de texto para entrada de nombre -->
+            </li>
+            
+            <li> <!-- Segundo elemento: campo de email -->
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" />
+                <!-- Campo especializado para emails con validación automática -->
+            </li>
+            
+            <li> <!-- Tercer elemento: área de mensaje -->
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+                <!-- Área de texto multilínea para mensajes largos -->
+            </li>
+
+            <li class="button"> <!-- Elemento con clase para estilizado futuro -->
+                <button type="submit">Envíe su mensaje</button>
+                <!-- Botón para enviar el formulario -->
+            </li>
+        </ul>    
+    </form>
+
+    <br> <!-- Salto de línea -->
+    
+    <!-- Enlace hipertexto a sitio externo -->
+    <a href="https://www.mozilla.org/">sitio web favorito</a>
+    <!-- href = URL de destino, texto visible = "sitio web favorito" -->
+    
+    <br> <!-- Salto de línea -->
+    
+</body>
+</html>

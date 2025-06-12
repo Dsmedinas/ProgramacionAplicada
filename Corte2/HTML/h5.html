@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Define el idioma principal del documento como inglés -->
+<head>
+    <meta charset="UTF-8"> <!-- Especifica la codificación de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración para responsive design -->
+    <title>Document</title> <!-- Título del documento (aparece en la pestaña del navegador) -->
+</head>
+<body>
+    <!-- Título principal de la página -->
+    <h1>scientific names</h1> <!-- Encabezado de nivel 1 -->
+    
+    <!-- Ejemplo 1: Nombres científicos -->
+    <p>
+        The Ruby-throated Hummingbird (<i>Archilochus colubris</i>) is the most common
+        hummingbird in Eastern North America.
+    </p>
+    <!-- 
+        Uso de <i> para texto en cursiva que representa un nombre científico.
+        Esta es la forma correcta de marcar nombres científicos en HTML5.
+    -->
+    
+    <!-- Ejemplo 2: Palabras extranjeras -->
+    <p>
+        The menu was a sea of exotic words like <i lang="uk-latn">vatrushka</i>,
+        <i lang="id">nasi goreng</i> and <i lang="fr">soupe à l'oignon</i>.
+    </p>
+    <!-- 
+        Uso de <i> con atributo lang para palabras en otros idiomas:
+        - lang="uk-latn": Vatrushka (ucraniano en alfabeto latino)
+        - lang="id": Nasi goreng (indonesio)
+        - lang="fr": Soupe à l'oignon (francés)
+        El atributo lang ayuda a los lectores de pantalla con la pronunciación.
+    -->
+    
+    <!-- Ejemplo 3: Error ortográfico intencional -->
+    <p>Someday I'll learn how to <u class="spelling-error">spel</u> better.</p>
+    <!-- 
+        Uso de <u> con clase para marcar un error ortográfico intencional.
+        La clase "spelling-error" podría usarse para estilizar el error (subrayado rojo, etc.).
+        Nota: <u> por sí solo no es semántico, por eso se añade la clase.
+    -->
+    
+    <!-- Ejemplo 4: Definición de término -->
+    <dl> <!-- Lista de definiciones -->
+        <dt>Semantic HTML</dt> <!-- Término a definir -->
+        <dd> <!-- Definición del término -->
+            Use the elements based on their <b>semantic</b> meaning, not their
+            appearance.
+        </dd>
+        <!-- 
+            Uso de <b> para resaltar una palabra clave dentro de la definición.
+            En este contexto, <b> se usa para llamar la atención sin implicar importancia.
+        -->
+    </dl>
+</body>
+</html>
